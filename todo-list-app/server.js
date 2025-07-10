@@ -5,7 +5,7 @@ const port = 3000;
 
 let todos = [
   {
-    id: 123,
+    id: '123',
     text: 'Add a Server',
     isCompleted: true,
   }
