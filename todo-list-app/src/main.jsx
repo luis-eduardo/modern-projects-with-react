@@ -5,7 +5,7 @@ import { Provider } from "react-redux";
 import "./index.css";
 import App from "./App.jsx";
 import todosSlice from "./todosSlice.js";
-import loadingSlice from "./loadingSlice.js";
+import { loadingSlice } from "./loadingSlice.js";
 
 const store = configureStore({
   reducer: {

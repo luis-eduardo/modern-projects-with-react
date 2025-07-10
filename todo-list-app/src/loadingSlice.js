@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const loadingSlice = createSlice({
+export const loadingSliceDef = {
   name: 'loading',
   initialState: {
     value: {
@@ -21,7 +21,8 @@ const loadingSlice = createSlice({
       state.value.successful = false;
     }
   }
-});
+};
+
+export const loadingSlice = createSlice(loadingSliceDef);
 
 export const { loadingStarted, loadingCompleted, loadingFailed } = loadingSlice.actions;
-export default loadingSlice;
