@@ -1,0 +1,6 @@
+@rootUrl=http://localhost:3000
+
+### Get Todos
+GET {{rootUrl}}/todos
+
+###
